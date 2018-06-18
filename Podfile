@@ -6,9 +6,9 @@ target 'DisplayData' do
   use_frameworks!
 
   # Pods for DisplayData
-        pod 'Alamofire', '~> 4.7'
+    pod 'Alamofire', '~> 4.7'
 	pod 'AlamofireImage', '~> 3.3.0'
 	pod 'MBProgressHUD', '~> 0.9.2'
-        pod 'SwiftyJSON', '~> 3.0.0'
+    pod 'SwiftyJSON', '~> 3.0.0'
 
 end

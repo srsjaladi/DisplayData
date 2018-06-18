@@ -7,16 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55CF92F520D7AFE40069FB39 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CF92F420D7AFE40069FB39 /* UIView+Extensions.swift */; };
+		55CF92FA20D7BDF20069FB39 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CF92F920D7BDF20069FB39 /* List.swift */; };
+		55CF92FC20D7D29A0069FB39 /* NSObject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CF92FB20D7D29A0069FB39 /* NSObject+Extensions.swift */; };
+		55CF92FE20D7D4A80069FB39 /* MBProgressHUD+DisplayDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CF92FD20D7D4A80069FB39 /* MBProgressHUD+DisplayDataHelper.swift */; };
 		55D444CF20CFDC47000FD8F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D444CE20CFDC47000FD8F9 /* AppDelegate.swift */; };
 		55D444D120CFDC47000FD8F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D444D020CFDC47000FD8F9 /* ViewController.swift */; };
 		55D444D420CFDC47000FD8F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D444D220CFDC47000FD8F9 /* Main.storyboard */; };
 		55D444D620CFDC49000FD8F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D444D520CFDC49000FD8F9 /* Assets.xcassets */; };
 		55D444D920CFDC49000FD8F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D444D720CFDC49000FD8F9 /* LaunchScreen.storyboard */; };
+		55D444E320CFE9DE000FD8F9 /* DisplayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D444E120CFE9DE000FD8F9 /* DisplayTableViewCell.swift */; };
+		55D444E420CFE9DE000FD8F9 /* DisplayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55D444E220CFE9DE000FD8F9 /* DisplayTableViewCell.xib */; };
 		67BB5A155FEC1CAE1788FA6A /* Pods_DisplayData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8C62645AB5EEA060CFB605 /* Pods_DisplayData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01A651FCD066D26FE493460D /* Pods-DisplayData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisplayData.release.xcconfig"; path = "Pods/Target Support Files/Pods-DisplayData/Pods-DisplayData.release.xcconfig"; sourceTree = "<group>"; };
+		55CF92F420D7AFE40069FB39 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		55CF92F920D7BDF20069FB39 /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		55CF92FB20D7D29A0069FB39 /* NSObject+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extensions.swift"; sourceTree = "<group>"; };
+		55CF92FD20D7D4A80069FB39 /* MBProgressHUD+DisplayDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MBProgressHUD+DisplayDataHelper.swift"; sourceTree = "<group>"; };
 		55D444CB20CFDC47000FD8F9 /* DisplayData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisplayData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D444CE20CFDC47000FD8F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55D444D020CFDC47000FD8F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +34,8 @@
 		55D444D520CFDC49000FD8F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55D444D820CFDC49000FD8F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55D444DA20CFDC49000FD8F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55D444E120CFE9DE000FD8F9 /* DisplayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTableViewCell.swift; sourceTree = "<group>"; };
+		55D444E220CFE9DE000FD8F9 /* DisplayTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisplayTableViewCell.xib; sourceTree = "<group>"; };
 		D6F8054406C960A83FBAA9AA /* Pods-DisplayData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DisplayData.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DisplayData/Pods-DisplayData.debug.xcconfig"; sourceTree = "<group>"; };
 		DA8C62645AB5EEA060CFB605 /* Pods_DisplayData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DisplayData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -48,6 +60,65 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		55CF92EC20D7AF570069FB39 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				55D444D220CFDC47000FD8F9 /* Main.storyboard */,
+				55D444D720CFDC49000FD8F9 /* LaunchScreen.storyboard */,
+				55D444E220CFE9DE000FD8F9 /* DisplayTableViewCell.xib */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		55CF92ED20D7AF600069FB39 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				55D444D020CFDC47000FD8F9 /* ViewController.swift */,
+				55D444E120CFE9DE000FD8F9 /* DisplayTableViewCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		55CF92EE20D7AF710069FB39 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				55CF92F920D7BDF20069FB39 /* List.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		55CF92F020D7AF870069FB39 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				55CF92FD20D7D4A80069FB39 /* MBProgressHUD+DisplayDataHelper.swift */,
+				55CF92F420D7AFE40069FB39 /* UIView+Extensions.swift */,
+				55CF92FB20D7D29A0069FB39 /* NSObject+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		55CF92F120D7AF960069FB39 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55D444D520CFDC49000FD8F9 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		55CF92F220D7AF9D0069FB39 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		55CF92F320D7AFA40069FB39 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		55D444C220CFDC47000FD8F9 = {
 			isa = PBXGroup;
 			children = (
@@ -69,12 +140,15 @@
 		55D444CD20CFDC47000FD8F9 /* DisplayData */ = {
 			isa = PBXGroup;
 			children = (
-				55D444CE20CFDC47000FD8F9 /* AppDelegate.swift */,
-				55D444D020CFDC47000FD8F9 /* ViewController.swift */,
-				55D444D220CFDC47000FD8F9 /* Main.storyboard */,
-				55D444D520CFDC49000FD8F9 /* Assets.xcassets */,
-				55D444D720CFDC49000FD8F9 /* LaunchScreen.storyboard */,
+				55CF92EC20D7AF570069FB39 /* StoryBoards */,
+				55CF92EE20D7AF710069FB39 /* Models */,
+				55CF92ED20D7AF600069FB39 /* ViewControllers */,
+				55CF92F320D7AFA40069FB39 /* Views */,
+				55CF92F220D7AF9D0069FB39 /* Services */,
+				55CF92F120D7AF960069FB39 /* Resources */,
+				55CF92F020D7AF870069FB39 /* Extensions */,
 				55D444DA20CFDC49000FD8F9 /* Info.plist */,
+				55D444CE20CFDC47000FD8F9 /* AppDelegate.swift */,
 			);
 			path = DisplayData;
 			sourceTree = "<group>";
@@ -150,6 +224,7 @@
 			files = (
 				55D444D920CFDC49000FD8F9 /* LaunchScreen.storyboard in Resources */,
 				55D444D620CFDC49000FD8F9 /* Assets.xcassets in Resources */,
+				55D444E420CFE9DE000FD8F9 /* DisplayTableViewCell.xib in Resources */,
 				55D444D420CFDC47000FD8F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,6 +283,11 @@
 			files = (
 				55D444D120CFDC47000FD8F9 /* ViewController.swift in Sources */,
 				55D444CF20CFDC47000FD8F9 /* AppDelegate.swift in Sources */,
+				55CF92FE20D7D4A80069FB39 /* MBProgressHUD+DisplayDataHelper.swift in Sources */,
+				55CF92F520D7AFE40069FB39 /* UIView+Extensions.swift in Sources */,
+				55CF92FC20D7D29A0069FB39 /* NSObject+Extensions.swift in Sources */,
+				55CF92FA20D7BDF20069FB39 /* List.swift in Sources */,
+				55D444E320CFE9DE000FD8F9 /* DisplayTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,7 +434,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DisplayData/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = self.DisplayData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -369,7 +453,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DisplayData/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = self.DisplayData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
